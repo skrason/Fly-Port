@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "RichTextEffect",
+"class": "RichTextBounce",
+"language": "GDScript",
+"path": "res://scripts/ui/TextBounce.gd"
+} ]
+_global_script_class_icons={
+"RichTextBounce": ""
+}
+
 [application]
 
 config/name="TilTheLastFly"
@@ -20,7 +30,7 @@ window/size/width=480
 window/size/height=272
 window/size/test_width=960
 window/size/test_height=544
-window/stretch/mode="viewport"
+window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
 [physics]
